@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+}
+/* #1d1f2e
+rgba(29, 31, 46, 0.7)
+#a25f4b
+rgba(29, 31, 46, 0.4)
+ */
+
+ .logo {
+     font-size: 1.6rem;
+     font-weight: bold;
+     color: #1d1f2e;
+ }
+ .active {
+    color: #1d1f2e;
+ }
+ .nav-link {
+     font-size: 1.2rem;
+     color: rgba(29, 31, 46, 0.7);
+ }
+ 
